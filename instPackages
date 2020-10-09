@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt update && sudo apt-add-repository universe && sudo apt dist-upgrade -y  && sudo ubuntu-drivers autoinstall && sudo apt update && sudo apt install gnome-tweaks cmatrix neofetch htop default-jdk telegram-desktop chrome-gnome-shell curl git zsh zsh-common powerline -y && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  && git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k && chsh -s $(which zsh) && sudo reboot
+sudo apt update && sudo apt-add-repository universe && sudo apt dist-upgrade -y  && sudo ubuntu-drivers autoinstall && sudo apt update && sudo apt install gnome-tweaks cmatrix neofetch htop default-jdk telegram-desktop chrome-gnome-shell curl git zsh zsh-common powerline -y && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  && git clone https://github.com/romkatv/powerlevel10k.git  ~/.oh-my-zsh/custom/themes/powerlevel10k && chsh -s $(which zsh) && sudo reboot
 
 
 
